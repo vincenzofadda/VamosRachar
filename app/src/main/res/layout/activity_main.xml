@@ -44,6 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:text="Digite acima o valor e o nº de pessoas"
         android:textAlignment="center"
         android:textSize="22sp" />
 
@@ -60,11 +61,11 @@
             android:text="COMPARTILHAR" />
 
         <Button
-            android:id="@+id/speaker"
+            android:id="@+id/speech"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="SPEAKER" />
+            android:text="TEXT-TO-SPEECH" />
 
     </LinearLayout>
 
