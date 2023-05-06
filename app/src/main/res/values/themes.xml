@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.VamosRachar" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.VamosRachar" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">#633FFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorPrimaryInverse">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
